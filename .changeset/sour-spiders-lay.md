@@ -2,4 +2,4 @@
 '@james-battye/theambra': patch
 ---
 
-init
+initial
