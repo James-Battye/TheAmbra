@@ -1,24 +1,24 @@
 {
-  "name": "@james-battye/developer-starter",
+  "name": "@james-battye/theambra",
   "version": "0.0.0",
   "description": "Developer starter template for projects.",
-  "homepage": "https://github.com/james-battye/new-webflow-project#readme",
+  "homepage": "https://github.com/james-battye/theambra#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
     "name": "James Battye",
-    "url": "https://jamesbattye.com/"
+    "url": "https://jamesbattye.dev/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/james-battye/developer-starter.git"
+    "url": "git+https://github.com/james-battye/theambra.git"
   },
   "bugs": {
-    "url": "https://github.com/james-battye/developer-starter/issues"
+    "url": "https://github.com/james-battye/theambra/issues"
   },
   "type": "module",
-  "main": "src/index.ts",
-  "module": "src/index.ts",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "files": [
     "dist"
   ],
@@ -53,6 +53,7 @@
     "typescript-eslint": "^8.23.0"
   },
   "dependencies": {
+    "@barba/core": "^2.10.3",
     "@finsweet/ts-utils": "^0.40.0",
     "gsap": "^3.13.0",
     "playwright": "^1.52.0"
