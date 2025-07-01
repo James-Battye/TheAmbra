@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "@jamesbattye-dev/theambra",
   "version": "0.0.1",
+=======
+  "name": "@james-battye/theambra",
+  "version": "0.0.2",
+>>>>>>> 40e11dffd5479eb636a92e9afec7d41d18f67ec6
   "description": "Developer starter template for projects.",
   "homepage": "https://github.com/james-battye/theambra#readme",
   "license": "ISC",
