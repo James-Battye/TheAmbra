@@ -1,5 +1,11 @@
 # @james-battye/theambra
 
+## 0.0.4
+
+### Patch Changes
+
+- 2612aeb: y
+
 ## 0.0.3
 
 ### Patch Changes
