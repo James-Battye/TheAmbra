@@ -6,25 +6,8 @@ import { join, sep } from 'path';
 const BUILD_DIRECTORY = 'dist';
 const PRODUCTION = process.env.NODE_ENV === 'production';
 
-// Function to recursively get all files in src/ folder with specific extensions
-const getEntryFiles = (dir, extensions) => {
-  const entries = readdirSync(dir, { withFileTypes: true });
-  const files = [];
-
-  for (const entry of entries) {
-    const fullPath = join(dir, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...getEntryFiles(fullPath, extensions));
-    } else if (extensions.some(ext => entry.name.endsWith(ext))) {
-      files.push(fullPath);
-    }
-  }
-
-  return files;
-};
-
 // Generate entry points dynamically
-const ENTRY_POINTS = getEntryFiles('src', ['.js', '.ts', '.css']);
+const ENTRY_POINTS = ['src/index.js']
 
 // Config dev serving
 const LIVE_RELOAD = !PRODUCTION;
